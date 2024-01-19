@@ -1,0 +1,95 @@
+#Pendahuluan OOP python
+
+Sebenarnya, dalam pemrograman ada banyak paradigma yang dapat kita gunakan
+untuk menunjang development.
+macam-macam paradigma pada pemrograman antara lain :
+1. Pemrograman Prosedural(Structural Programming)
+2. Object Oriented Programming
+3. Agent Based Programming
+4. Guide Based Programming(Pemrograman Berorientasikan Petunjuk)
+5. Logic Based Programming(Pemrograman Berorientasikan Logika)
+6. Formal Applicating Based Programming(Pemrograman Berorientasikan Penerapan Formal)
+7. Parallel Programming and Distributed Programming (Pemrograman Paralel dan Pemrograman Terdistribusi)
+8. Declarative Programming (Pemrograman Deklaratif)
+...
+dan masih banyak lagi yang kita sendiri juga bisa membuat paradigma buatan
+kita sendiri.
+
+Pemilihan paradigma dapat berdasarkan faktor berikut,
+1. fungsionalitas
+2. kompleksitas
+3. jenis proyek
+4. preferensi pengembang
+
+
+
+=====   MENGAPA KITA MENGGUNAKAN PARADIGMA OOP???   =====
+Jadi, OOP bisa menjadi pilihan karena OOP merupakan paradigma pemrograman
+yang dapat membuat serta mengatur masing-masing dari banyak objek pada
+sebuah program.
+OOP memudahkan kita daripada harus membuat secara detail jika menggunakan
+paradigma Prosedural/Structural.
+
+
+===== APA ITU OOP PYTHON ??? =====
+
+pada python, syntax OOP yang dimilikinya tidak  sepanjang/sekompleks pada
+bahasa pemrograman lainnya, seperti C++, Java, assembly, dsb...
+Sintaks OOP python sangat mudah untuk dipahami sehingga membuat bahasa ini
+banyak dipakai untuk kebutuhan pemrograman.
+
+Beberapa konsep dasar dalam pemrograman berorientasi objek (OOP) dalam Python meliputi:
+
+1. Kelas (Class): Blueprint untuk membuat objek. Mendefinisikan atribut (variabel) dan metode (fungsi) yang akan dimiliki oleh objek yang dibuat dari kelas tersebut.
+
+2. Objek (Object): Instance yang dibuat dari kelas. Memiliki atribut dan metode sesuai dengan definisi kelas.
+
+3. Atribut (Attribute): Variabel yang menyimpan data untuk objek. Contohnya, dalam kelas "Mobil," atribut bisa menjadi "warna," "kecepatan," dan sebagainya.
+
+4. Metode (Method): Fungsi yang terkait dengan kelas dan dapat memanipulasi data objek. Contohnya, dalam kelas "Mobil," metode bisa menjadi "maju," "mundur," dan sebagainya.
+
+5. Enkapsulasi (Encapsulation): Konsep mengatur akses ke atribut dan metode, sehingga beberapa detail implementasi dapat disembunyikan dari luar kelas.
+e.g sebuah perusahaan yang terdiri atas HR Departement, Production Departement, Marketing Departement, dsb..
+
+6. Pewarisan (Inheritance): Membuat kelas baru (subclass) dari kelas yang sudah ada (superclass), yang mewarisi atribut dan metode dari superclass.
+e.g anak-anak kucing yang mempunyai Pewarisan sifat dari induknya/orang tuanya
+
+7. Polimorfisme (Polymorphism): Kemampuan untuk menggunakan objek dari berbagai kelas secara serupa, karena mereka memiliki metode dengan nama yang sama.
+e.g seorang wanita bisa menjadi : ibu, penulis, pelajar, dsb..
+
+8. Abstraksi (Abstraction) : memberikan method kepada objek
+e.g mobile phone yang bisa menelpon, mengambil footage, memainkan games, dsb..
+
+
+
+========== Review Penulisan Function ==========
+Class data_mahasiswa :
+
+    def __init__(self,name,npm,major,degree) :
+        self.name   = name
+        self.npm    = npm 
+        self.major  = major
+        self.degree = degree
+
+Abdillah = data_mahasiswa("Mohamad Abdillah", 2206050296, Physics, Bachelor of Sciences)
+
+#memanggil data dictionary Abdillah
+print(Abdillah.__dict__)
+
+#memanggil sebuah data dari sebuah objek
+print(Abdillah.name)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
